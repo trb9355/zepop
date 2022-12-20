@@ -1,133 +1,547 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
 <body>
-<style>
-.load-bar {
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-  height: 6px;
-  background-color: #fdba2c;
-}
-.bar {
-  content: "";
-  display: inline;
-  position: absolute;
-  width: 0;
-  height: 100%;
-  left: 50%;
-  text-align: center;
-}
-.bar:nth-child(1) {
-  background-color: #da4733;
-  animation: loading 3s linear infinite;
-}
-.bar:nth-child(2) {
-  background-color: #3b78e7;
-  animation: loading 3s linear 1s infinite;
-}
-.bar:nth-child(3) {
-  background-color: #fdba2c;
-  animation: loading 3s linear 2s infinite;
-}
-@keyframes loading {
-    from {left: 50%; width: 0;z-index:100;}
-    33.3333% {left: 0; width: 100%;z-index: 10;}
-    to {left: 0; width: 100%;}
-}
-</style>
+
+	<h3 style="background-color:Green;"  >Predictor Zepplin Real  Lifetime Package.</h3>
+	
+<p>
+	 <b style="background-color:#95347">İnfo!</b> <b>Once your transaction is confirmed, your Account will be activated and you will receive Zepplin signals forever!</b>
+	</p>
+
 
 </body>
-<div class="load-bar">
-  <div class="bar"></div>
-  <div class="bar"></div>
-  <div class="bar"></div>
-</div>
 </html>
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" type="image/png"
+        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+    <link rel="mask-icon" type="image/x-icon"
+        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+        color="#111">
+
+
+    <title>CodePen - Bootstrap/HTML5 form validation</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <style>
+        .spin-icon {
+            -webkit-animation: spin 2.5s linear infinite;
+            animation: spin 2.5s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .form-group-relative {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .form-group-relative .btn-copy {
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            padding: 5px 10px;
+            font-size: 12px;
+            line-height: 10px;
+            transform: translateY(-50%);
+            border: 0px;
+        }
+
+        .form-group-relative .btn-copy:focus {
+            outline: 0px;
+            border: 0px;
+            box-shadow: 0px;
+        }
+    </style>
+
+
+
+</head>
+
 <body>
-<b>Predictor Zeppelin</b>
-<p1 style="color:blue">30 Days of activation! Can be repeated after 30 days!</p1>
-<b2 style="color:green">Your account will be activated automatically after payment verification.</b2>
-<style>
-div.container {
-  text-align: center;
-  margin: 0px auto 0;
-}
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
 
-a {
-  display: inline-block;
-  background-color: #1984c3;
-  color: #fff;
-  font-size: 1.5em;
-  font-family: Courier, sans-serif;
-  padding: 1em 5em;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 0.5em;
-  border-bottom: 0.25em solid #0f5177;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  box-shadow: 0 2px 3px #ccc;
-  position: relative;
-}
+                <div class="form-group" style="margin: 30px 0px;">
+                    <label for="Test">Activation Payment Options!</label>
+                    <div class="form-group-relative">
+                        <select name="" class="form-control select-option">
+                            <option value="1">*Payeer Wallet *Price:$150</option>
+                            <option value="2">*Perfect Money *Price:$150</option>
+                            <option value="3">*Jeton Wallet *Price:$150</option>
+                            <option value="4">*Webmoney Wallet *Price:$150</option>
+                            <option value="5">*Coinbase Wallet *Price:$150</option>
+              
+                            <option value="6">*Usdt Tether Trc20 *Price:110 Usdt</option>
+                            <option value="7">*Usdt Tether Bep20 *Price:110 Usdt</option>
+                            <option value="8">*Bitcoin -BTC NETWORK *Price: 0.008 Btc</option>
+                            <option value="9">*Ethereum -ERC20 NETWORK *Price: 0.15 eth</option>
+                             <option value="10">*Visa Card *Price:$150</option>
+                            <option value="11">*PhonePE  *Price: 12000 inr</option>
+                            <option value="12">*Paytm  *Price: 12000 inr</option>
+                             <option value="13">*PIX  *Price: 750 reals</option>
 
-a:hover {
-  background-color: #1e9feb;
-  border-bottom-width: 0;
-  margin-top: 0.2em;
-}
-     </style>
+ 
+
+                        </select>
+                        <button class="btn btn-success btn-copy">Copy paste</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Test">Payment information</label>
+                    <div class="form-group-relative">
+                        <select disabled class="form-control select-with-option">
+                            <option>Seçenekler yükleniyor...</option>
+                        </select>
+                        <button class="btn btn-success btn-copy">Copy paste</button>
+                    </div>
+                </div>
+
+                <h1>Fill in the Form for Payment Verification and Activation.</h1>
+                <form data-ajax="true">
+                    <div class="form-group">
+                        <label for="Predictor zeppelin Username" class="control-label">Predictor Zeppelin Username</label>
+                        <input type="text" name="Name" placeholder="Your Predictor zeppelin Username" id="Name" class="form-control input-name"
+                            required />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Predictor Zeppelin Real  Email Address</label>
+                        <input type="email" name="Email" placeholder="yourpredictorzeppelin@email.com" id="Email"
+                            class="form-control input-email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="Test">Verification Option.</label>
+                        <div class="form-group-relative">
+                            <select name="" class="form-control">
+                               <option value="a1">*Payeer Wallet Verification process!</option>
+                            <option value="a2">*Perfect Money Verification process!</option>
+                            <option value="a3">*Jeton Wallet Verification process!</option>
+                            <option value="a4">*Webmoney Wallet Verification process!</option>
+                            <option value="a5">*Coinbase Wallet Verification process!</option>
+                         <option value="a7">*Usdt Tether Trc20 Verification process!</option>
+                            <option value="a8">*Usdt Tether Bep20 Verification process!</option>
+                            <option value="a9">*Bitcoin -BTC NETWORK Verification process!</option>
+                            <option value="a10">*Ethereum -ERC20 NETWORK Verification process!</option>
+              
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Test">Your Payment Transfer Code!</label>
+                        <input type="text" required name="Test" id="Test" placeholder="Enter Your Payment Transfer Code.."
+                            class="form-control input-test" />
+                    </div>
+
+                    <div class="alert hidden" aria-hidden="true"
+                        data-success-message="<strong>Success!</strong> Your form was submitted."
+                        data-error-message="<strong>Drats!</strong> Something afoul is afoot. Watson, hurry, I need you!">
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit the Form</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2>Rules and Instructions!:</h2>
+                <ul>
+                    <li>Confirm the payment! <span
+                            class="glyphicon glyphicon-refresh spin-icon"></span></li>
+                    <li>Restart the App after verification!</li>
+                    <li>
+                        Choose Your Betting Site to receive zeppelin Signals!
+                    </li>
+                    <li>Start with Start!</li>
+                    <li>Get zeppelin signals 35 times a day Every Day!</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        // Burası bir alt menü oluşturmayı sağlar "1" seçilen valueyi belirler
+        const subOptions = {
+            "1": [
+                {
+                    value: "1-1",
+                    label: "P1054349435"
+                },
+                
+            ],
+            "2": [
+                {
+                    value: "2-1",
+                    label: "U30353829"
+                },
+               
+            ],
+
+
+
+
+ "3": [
+                {
+                    value: "33",
+                    label: "19762073"
+                },
+                
+            ],
+
+ "4": [
+                {
+                    value: "353",
+                    label: "Z365873332816"
+                },
+                
+            ],
+ "5": [
+                {
+                    value: "3223",
+                    label: "trb935@gmail.com"
+                },
+                
+            ],
+
+ "6": [
+                {
+                    value: "333",
+                    label: "TKscrX4uNyGQJwpub8BrWbdvWqPMghD8No"
+                },
+                
+            ],
+
+
+
+
+ "7": [
+                {
+                    value: "363",
+                    label: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163"
+                },
+                
+            ],
+
+ "8": [
+                {
+                    value: "733",
+                    label: "1Hsx9R9u82XrFRazn55nHTUuXs8BJd8PM8"
+                },
+                
+            ],
+
+
+ "9": [
+                {
+                    value: "383",
+                    label: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163"
+                },
+                
+            ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        };
+
+        const selectRef = $('.select-option');
+        $('.btn-copy').on("click", function () {
+            const val = $(this).parent().find("select,input").val();
+            const _this = $(this);
+            _this.text("Copied!").attr("disabled", true);
+            setTimeout(() => {
+                _this.text("Copy paste").removeAttr("disabled");
+            }, 2000);
+            navigator.clipboard.writeText(val);
+        });
+        function createSubOptions() {
+            $('.select-with-option + .btn-copy').removeAttr("disabled");
+            $('.select-with-option').removeAttr("disabled").html(``);
+            if (!selectRef || typeof selectRef.val() === "undefined") return
+            if (!subOptions[selectRef.val()] || subOptions[selectRef.val()].length === 0) {
+                $('.select-with-option + .btn-copy').attr("disabled", true);
+                $('.select-with-option').attr("disabled", true).html(`<option>Currently in Maintenance!</option>`);
+                return
+            }
+            subOptions[selectRef.val()].forEach((item) => {
+                subOptions[selectRef.val()]
+                $('.select-with-option').append(`<option value="${item.value}">${item.label}</option>`)
+            })
+        }
+        createSubOptions();
+
+        selectRef.change(createSubOptions);
+
+
+        (function ($, d) {
+            $.ajaxForm = function (options) {
+                var form = {
+                    options: $.extend({
+                        formSelector: 'form[data-ajax="true"]',
+                        formRegion: 'main',
+                        headerSelector: '.site-header',
+                        errorMessage: "<strong>Error:</strong> We're sorry, but there has been a problem submitting your request. Please confirm all information and try again.",
+                        successMessage: '<strong>Success:</strong> Your request has been successfully submitted.',
+                        scrollPadding: 40
+                    }, options),
+
+                    $form: function () {
+                        return $(form.options.formSelector, form.options.formRegion);
+                    },
+
+                    $invalid: function () {
+                        //console.log('getting invalid', $('input:invalid', form.$form()));
+                        return $('input:invalid', form.$form());
+                    },
+
+                    init: function () {
+
+                        var $form = form.$form();
+                        $('input[required]', $form).each(function (el) {
+                            form.setFieldWarning(this);
+                        }).on('keyup blur change', function (el) {
+                            form.validateField(this);
+                        });
+
+                        form.toggleSubmitButtons();
+
+                        $form.on('click', '[type="submit"]', function (e) {
+                            e.preventDefault();
+
+                            form.toggleSubmitButtons();
+                            form.submit($(e.target).parents('form'));
+                            //form.validate($(e.target).parents('form'));
+                        });
+                    },
+
+                    submit: function (target) {
+                        var $form = $(target), $alert = $('.alert', $form), successMessage, errorMessage;
+
+                        successMessage = $alert.data('success-message') !== undefined ? $alert.data('success-message') : form.options.successMessage;
+                        errorMessage = form.options.errorMessage;
+
+                        $alert.addClass('alert-warning').removeClass('alert-success alert-danger hidden').attr('aria-hidden', 'false').attr('role', 'alert').html('<p><span class="glyphicon glyphicon-refresh spin-icon"></span> Submitting the form...</p>');
+                        let inputTest = $('.input-test').val();
+
+                        setTimeout(() => {
+                            $alert.addClass('alert-danger').removeClass('alert-warning').html(`
+                                <strong>Error! Complete the payment, check your transfer code!</strong><br>Your Payment Transfer Code! #${inputTest}
+                                `);
+                            form.toggleSubmitButtons(true);
+                        }, 10000)
+
+                    },
+
+
+
+                    validateField: function (target) {
+                        var $target = $(target), $invalid = form.$invalid();
+
+                        if ($target.is(':valid')) {
+                            form.setFieldValid(target);
+                        } else {
+                            form.setFieldInvalid(target);
+                        }
+
+                        //console.log($invalid);
+                        if ($invalid.length <= 0) {
+                            //console.log('toggle submit true');
+                            form.toggleSubmitButtons(true);
+                        } else {
+                            form.toggleSubmitButtons();
+                        }
+                    },
+
+                    setFieldValid: function (target) {
+                        //console.log('setting field valid', target);
+                        var $target = $(target),
+                            $parent = $target.parents('.form-group'),
+                            $status = $('span.sr-only', $parent),
+                            $icon = $('span.glyphicon', $parent);
+                        //$status = $('<span class="sr-only">(success)</span>').attr('id', $target.attr('id') + '-status'),
+                        //$icon = $('<span class="glyphicon glyphicon-ok form-control-feedback aria-hidden="true"></span>');
+
+                        $parent
+                            .addClass('has-feedback has-success')
+                            .removeClass('has-error has-warning');
+                        //.append($icon)
+                        //.append($status);
+
+                        $status.html('(success)');
+                        $icon
+                            .addClass('glyphicon-ok')
+                            .removeClass('glyphicon-remove glyphicon-warning-sign');
+
+                        $target
+                            .attr('describedBy', $target.attr('id') + '-status');
+                    },
+
+                    setFieldWarning: function (target) {
+                        var $target = $(target),
+                            $parent = $target.parents('.form-group'),
+                            $status = $('<span class="sr-only">(warning)</span>').attr('id', $target.attr('id') + '-status'),
+                            $icon = $('<span class="glyphicon glyphicon-warning-sign form-control-feedback aria-hidden="true"></span>');
+
+                        $parent
+                            .addClass('has-feedback has-warning')
+                            .append($icon)
+                            .append($status);
+
+                        $target
+                            .attr('describedBy', $target.attr('id') + '-status');
+                    },
+
+                    setFieldInvalid: function (target) {
+                        var $target = $(target),
+                            $parent = $target.parents('.form-group'),
+                            $status = $('span.sr-only', $parent),
+                            $icon = $('span.glyphicon', $parent);
+                        //$status = $('<span class="sr-only">(error)</span>').attr('id', $target.attr('id') + '-status'),
+                        //$icon = $('<span class="glyphicon glyphicon-remove form-control-feedback aria-hidden="true"></span>');
+
+                        $parent
+                            .addClass('has-feedback has-error')
+                            .removeClass('has-warning has-success');
+                        //.append($icon)
+                        //.append($status);
+
+                        $status.html('(error)');
+                        $icon
+                            .addClass('glyphicon-remove')
+                            .removeClass('glyphicon-ok glyphicon-warning-sign');
+
+                        $target
+                            .attr('describedBy', $target.attr('id') + '-status');
+                    },
+
+                    toggleSubmitButtons: function (enable) {
+                        if (enable === undefined) {
+                            enable = false;
+                        }
+
+                        var $form = form.$form();
+
+                        if (enable) {
+                            $('[type="submit"]', form.options.formSelector).removeAttr('disabled');
+                        } else {
+                            $('[type="submit"]', form.options.formSelector).attr('disabled', 'disabled');
+                        }
+                    }
+                };
+
+                return {
+                    init: form.init()
+                };
+            };
+
+            $.spamCheck = function (options) {
+                var spam = {
+                    options: $.extend({
+                        formSelector: 'form[data-spam="true"]',
+                        isHumanSelector: '#antiSpam_isHuman'
+                    }, options),
+
+                    init: function () {
+                        $('.js-anti-spam').hide();
+                        $(d).on('click.antiSpam', spam.isHuman).on("keypress.antiSpam", spam.isHuman);
+                    },
+
+                    isHuman: function () {
+                        //console.log('should set it true');
+                        $(spam.options.isHumanSelector).val('true');
+                        $(d).off('click.antiSpam').off('keypress.antiSpam');
+                    }
+                };
+
+                return {
+                    init: spam.init()
+                };
+            };
+
+            $(d).ready(function () {
+                var spamCheck = new $.spamCheck(),
+                    ajaxForm = new $.ajaxForm();
+            });
+        })(jQuery, document);
+    </script>
 </body>
 
-
-
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumpayeerwallet/">Payeer Wallet</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumperfect/">Perfect Money</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumwebmoney/">WebMoney</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumcoinbase/">Coinbase</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumjetonwallet/">Jeton Wallet</a>
-</div>
-<div class="container">
-  <a href="https://trb9355.github.io/tumbtc/">Bitcoin Network!</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumeth/">Ethereum Network!</a>
-</div>
-
-<div class="container">
-  <a href="https://trb9355.github.io/tumusdt/">USDT TRC20 Network! </a>
-</div>
-
-
-
-
-<div class="container">
-  <a href="https://trb9355.github.io/prephonepe/">PhonePe Payment- İNR </a>
-</div>
-
-
-
-
-
-
-
-</html>                                                                                                                                                                                                                                                                                                
+</html>
